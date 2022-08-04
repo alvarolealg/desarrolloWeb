@@ -1,0 +1,240 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* logo */
+.containerLogo{
+    margin: 3rem;
+}
+/* header */
+header{
+    width: 100%;
+}
+/* nav */
+.barraNav{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7F7F7F;
+}
+.links{
+    list-style: none;
+    padding-inline: 1rem;
+    display: inline-block;
+    color: #fff;
+}
+.listaNav .subMenu{
+    position: absolute;
+    display: none;
+    background-color: #7F7F7F;
+}
+.listaNav li:hover ul{
+    display: block;
+    background-color: #7F7F7F;
+    list-style: none;
+    padding: 25px;
+}
+li a:hover{
+    color: #1C7057;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+/* home */
+.container{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.container1{
+    margin-bottom: 5rem;
+    width: 80%;
+
+}
+.container2{
+    margin-bottom: 9rem;
+    width: 80%;
+}
+.botonVM{
+    padding: .6rem;
+    border: none;
+    border-radius: 40px;
+    background-color: #1C7057;
+}
+.botonVM-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.infoHome{
+    font-size: 3rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #1C7057;
+    margin-bottom: 3rem;
+}
+.carrusel{
+    width: auto;
+    margin-left: 35%;
+}
+.carrusel img{
+    border: 4px solid #1C7057;
+}
+.parrafoIH{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+/* footer */
+.footer{
+    font-size: 1rem;
+}
+/* quienes somos */
+.titleQS{
+    color: #1C7057;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.parrafoQS{
+    color: black;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+/* productos */
+.imagenesProd{
+    color: #1C7057;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.titleProd{
+    color: #1C7057;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.titleProdEquipos{
+    color: #1C7057;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.parrafoProd{
+    font-size: 2rem;
+}
+.contenedor{
+    height: auto;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+        "tanques embotellado renovable cierres"
+        "tanques embotellado renovable cierres"
+        ;
+
+    grid-gap: 20px;
+    padding: 20px;
+}
+.item{
+    border: 2px solid #000;
+}
+.item1{
+    background-image: url(../img/divisionDeTanques.jpg);
+    background-size: cover;
+    background-position: center; 
+    grid-area: tanques;
+
+}
+.item1 img{
+    width: 18rem;
+}
+.item2{
+     background-image: url(../img/divisionDeEmbotellado.jpg); 
+    background-size: cover;
+    background-position: center; 
+    grid-area: embotellado;
+}
+.item3{
+      background-image: url(../img/energiaRenovable.jpg);
+    background-size: cover;
+    background-position: center;  
+    grid-area: renovable;
+}
+.item4{
+    background-image: url(../img/cierres.jpg);
+    background-size: cover;
+    background-position: center;  
+    grid-area: cierres;
+}
+
+
+/* productos-varios */
+.divFondo{
+    width: 70rem;
+    height: 40rem;
+    
+    background-image: url("../img/asa_panoramiva.jpg");
+    background-repeat: no-repeat;
+    
+}
+.divVarios{
+    font-size: 2rem;
+    color: #1C7057;
+}
+.listaEquipos{
+    font-size: 1.5rem;
+    color: black;
+}
+.linkProd{
+    color: black;
+}
+/* contacto */
+.contacto{
+    color: #1C7057;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.parrafoContacto{
+    font-size: 2rem;
+}
+.form{
+    font-size: 2rem;
+}
+textarea{
+    resize: none;
+}
+.enviar{
+    font-size: 2rem;
+}
+
+.cuCont{
+font-size: 2rem;
+}
+
